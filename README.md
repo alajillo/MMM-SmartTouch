@@ -5,7 +5,7 @@ In your MagicMirror directory:
 ```bash 
 cd modules
 cd ~/MagicMirror/modules
-git clone https://github.com/alajillo/iframe-mmm.git
+git clone https://github.com/alajillo/MMM-SmartTouch.git
 cd MMM-SmartTouch
 npm install
 ```

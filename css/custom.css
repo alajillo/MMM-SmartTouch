@@ -11,15 +11,11 @@
     border: 1px solid white;
     border-radius: 4%;
     transform: translate(-50%,-50%);
-    transition: all ease 1s;
+    transition: all ease 2s;
 }
 .custom-menu {
     cursor: pointer;
     color : white;
-}
-.hide {
-    opacity: 0;
-    transition: all ease 0.1s;
 }
 
 .custom-iframe {
@@ -29,7 +25,7 @@
     width : 80%;
     height: 80%;
     transform: translate(-50%,-50%);
-    transition: all ease 1s;
+    transition: all ease 2s;
 }
 
 .custom-iframe-close-button {
@@ -37,4 +33,10 @@
     position: absolute;
     top : 0;
     right : 0;
+}
+
+
+.hide {
+    opacity: 0;
+    transition: all ease 0.1s;
 }
