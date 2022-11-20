@@ -19,8 +19,12 @@ Here is an example for an entry in `config.js`
   module: 'MMM-SmartTouch', 
   position: 'bottom_center',    // This can be any of the regions.(bottom-center Recommended)
   config:{ 
-    name : 'iframe/${name}/index.html',
-    icon : 'font awesome class name',
+    menuList : [
+				{
+          name : 'iframe/${name}/index.html',
+          icon : 'font awesome class name',
+				},
+			  ]
   }
 }
 ```
